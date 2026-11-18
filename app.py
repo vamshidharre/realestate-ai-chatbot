@@ -114,7 +114,7 @@ st.caption("Ask about DarGlobal's luxury projects or Wasalt listings in Saudi Ar
 
 llm = load_llm()
 if llm is None:
-    st.error("OPENROUTER_API_KEY is not set. Add it to `.env` locally, or as a Secret in the Hugging Face Space settings.")
+    st.error("OPENROUTER_API_KEY is not set. Add it to `.env` locally, or as an environment variable on your host (Render: Environment tab).")
     st.stop()
 
 if "messages" not in st.session_state:
