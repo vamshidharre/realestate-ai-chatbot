@@ -5,7 +5,8 @@ A retrieval-augmented (RAG) chatbot that answers questions from public pages of
 [Wasalt](https://wasalt.sa) (Saudi property portal), using a free LLM on OpenRouter.
 It runs as a single Docker container.
 
-**Live demo:** LIVE_URL
+**Live demo:** https://realestate-ai-chatbot-swbm.onrender.com (free plan: if it has been idle, the first
+load takes about a minute to wake up)
 
 Try: *Which DarGlobal projects are in Oman?* · *Apartments for rent in Jeddah under 30,000 a year?* ·
 *What amenities does DG1 have?*
