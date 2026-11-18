@@ -1,0 +1,6 @@
+# Runtime + indexing (what the Docker image needs). Versions are the ones tested locally.
+# Embeddings use the ONNX all-MiniLM-L6-v2 bundled with chromadb (no PyTorch), so the app fits in 512 MB.
+chromadb==1.5.9
+streamlit==1.67.0
+openai==3.55.0
+python-dotenv==1.2.4

@@ -1,0 +1,10 @@
+# Render Blueprint: Dashboard -> New -> Blueprint -> pick this repo. Builds the Dockerfile on the free plan.
+services:
+  - type: web
+    name: realestate-ai-chatbot
+    runtime: docker
+    plan: free
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false  # Render asks for the value once; it is never stored in the repo

@@ -1,0 +1,8 @@
+.venv
+.env
+chroma_store
+__pycache__
+.git
+data/manual
+*.md
+!README.md
